@@ -1,14 +1,11 @@
-%define sregex_sha c275d2291f5b7f1b3dea6b2c1f7818791360cca8
-
 Name:           sregex
-# Fake version until https://github.com/openresty/sregex/issues/23 is resolved
-Version:        0.0.0
+Version:        0.0.1
 Release:        1%{?dist}
 Summary:        libsregex - A non-backtracking NFA/DFA-based Perl-compatible regex engine library for matching on large data streams
 
 License:        BSD
 URL:            https://github.com/openresty/%{name}
-Source0:        https://github.com/openresty/%{name}/archive/%{sregex_sha}.zip
+Source0:        https://github.com/openresty/%{name}/archive/v%{version}.tar.gz
 
 BuildRequires:  gcc
 BuildRequires:  make
@@ -26,8 +23,7 @@ developing applications that use %{name}.
 
 
 %prep
-# Use -n for a non-standard directory name
-%setup -q -n sregex-%{sregex_sha}
+%setup -q
 
 
 %build
