@@ -25,8 +25,7 @@ Building packages
 
 #. Enjoy your new RPMs, available in the `build/` directory.
 
-If you're not into Docker, then you can manually run
-the build steps inside the corresponding ``Dockerfile``
-on your own EL machine, ensuring that you set up your build environment
-first. You can follow the respective ``Dockerfile`` in the ``configs/`` area
-and its ``RUN`` commands.
+If you're not into Docker, then you can manually run the build steps inside
+the corresponding ``Dockerfile`` on your own EL machine, ensuring that you set
+up your build environment first. You can follow the respective ``Dockerfile``
+in the ``configs/`` area and its ``RUN`` commands.
