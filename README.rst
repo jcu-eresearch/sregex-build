@@ -10,7 +10,6 @@ We currently support the following OSes:
 
 * CentOS/RHEL 8 (x86_64)
 * CentOS/RHEL 7 (x86_64)
-* CentOS/RHEL 6 (x86_64)
 
 Building packages
 -----------------
