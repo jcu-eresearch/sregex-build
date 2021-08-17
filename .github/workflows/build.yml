@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Build using docker-compose
-        run: docker-compose -f ./docker-compose.yml up --build
+      - name: Build
+        run: make all
       - name: Check build artifacts
         run: ls -R build/
