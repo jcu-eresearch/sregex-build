@@ -1,8 +1,8 @@
 sregex Packaging
 ================
 
-.. image:: https://travis-ci.org/jcu-eresearch/sregex-build.svg?branch=master
-   :target: https://travis-ci.org/jcu-eresearch/sregex-build
+.. image:: https://github.com/jcu-eresearch/sregex-build/actions/workflows/build.yml/badge.svg
+   :target: https://github.com/jcu-eresearch/sregex-build/actions/workflows/build.yml
 
 This packages `sregex <https://github.com/openresty/sregex>`_ within RPMs.
 
