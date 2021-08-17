@@ -19,4 +19,5 @@ CMD spectool -g -R /app/sregex.spec && \
   rpmbuild -ba /app/sregex.spec && \
   dnf install -y ~/rpmbuild/RPMS/x86_64/sregex-*.rpm && \
   sregex-cli 'a|ab' 'blab' && \
+  mkdir -p /app/build/centos-8 && \
   rsync --no-relative -vahu ~/rpmbuild/RPMS ~/rpmbuild/SRPMS /app/build/centos-8
