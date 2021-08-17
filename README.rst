@@ -44,7 +44,7 @@ running container, call::
 
     dnf install /app/build/centos-8/RPMS/x86_64/*.rpm
 
-To run a basic smoke test, run `sregex-cli``.
+To run a basic smoke test, run ``sregex-cli``.
 
 Updating Docker images
 ----------------------
